@@ -1,7 +1,7 @@
 {
   "name": "Négyzetméter Számoló",
   "short_name": "NM Számoló",
-  "start_url": "nm.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -18,3 +18,4 @@
     }
   ]
 }
+
