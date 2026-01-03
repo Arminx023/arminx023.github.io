@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Négyzetméter Számoló</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="nm.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Négyzetméter számoló</h1>
+
+  <section class="project-section">
+    <input id="projectName" placeholder="Új projekt neve">
+    <button onclick="addProject()">Projekt hozzáadása</button>
+
+    <select id="projectSelect" onchange="loadProject()"></select>
+  </section>
+
+  <section class="calc-section">
+    <input type="number" id="length" placeholder="Hossz (m)">
+    <input type="number" id="width" placeholder="Szélesség (m)">
+    <button onclick="calculate()">Számol</button>
+  </section>
+
+  <h2>Eredmények</h2>
+  <ul id="results"></ul>
+</div>
+
+<script src="nm.js"></script>
+</body>
+</html>
